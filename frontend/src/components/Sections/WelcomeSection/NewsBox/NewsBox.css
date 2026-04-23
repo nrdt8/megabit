@@ -1,0 +1,38 @@
+@keyframes animateNewsBox {
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
+
+.news-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1550px) {
+  .news-box {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .news-box {
+    overflow-x: auto;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    animation: 1s linear 1s infinite alternate animateNewsBox;
+    scroll-snap-type: x mandatory;
+  }
+
+  .news-block {
+    flex: 0 0 80%; /* ключевая строка */
+    min-width: 100%; /* чтобы не сжималось слишком сильно */
+  }
+}

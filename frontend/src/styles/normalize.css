@@ -1,0 +1,125 @@
+/* ===== CSS RESET (полный) ===== */
+
+/* Убираем отступы и границы */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стандартные стили текста */
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Убираем стили списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Убираем стандартные стили ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убираем стили кнопок и инпутов */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Курсор для кнопок */
+button {
+  cursor: pointer;
+}
+
+/* Убираем выделение textarea */
+textarea {
+  resize: none;
+}
+
+/* Изображения */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Формы */
+input::-ms-clear {
+  display: none;
+}
+
+/* Убираем стандартные стили для fieldset */
+fieldset {
+  border: none;
+}
+
+/* Убираем стандартные стили для legend */
+legend {
+  display: none;
+}
+
+/* Убираем стили для hr */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* Убираем кавычки у blockquote */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
+
+/* Сбрасываем стили заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+/* Сбрасываем стили strong и b */
+strong,
+b {
+  font-weight: normal;
+}
+
+/* Сбрасываем стили em и i */
+em,
+i {
+  font-style: normal;
+}

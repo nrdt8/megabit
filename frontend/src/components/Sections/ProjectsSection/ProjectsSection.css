@@ -1,0 +1,32 @@
+.projects {
+  max-width: var(--container);
+  margin: auto;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 15px;
+}
+
+@media (max-width: 1550px) {
+  .projects {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .projects-cards {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .projects-cards {
+    grid-template-columns: repeat(1, 4fr);
+  }
+  .projects {
+    width: 90%;
+  }
+}

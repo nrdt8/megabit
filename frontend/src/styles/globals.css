@@ -1,0 +1,18 @@
+body {
+  font-family: "Jost", sans-serif;
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.content {
+  margin-top: 98px;
+}

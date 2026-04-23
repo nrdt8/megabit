@@ -1,0 +1,78 @@
+.callback-container {
+  max-width: var(--container);
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.callback_img {
+  width: 50%;
+  height: 500px; /* или любая нужная высота */
+  overflow: hidden;
+}
+
+.callback_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.callback_content-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.callback_content-description {
+  color: var(--color-dark-1);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.callback_content-button {
+  margin-top: 20px;
+}
+
+.callback {
+  background-color: var(--color-white);
+}
+
+.callback_content-input {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1500px) {
+  .callback-container {
+    max-width: 95%;
+  }
+}
+
+.callback_content {
+  width: 70%;
+}
+
+@media (max-width: 1500px) {
+  .callback-container {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 850px) {
+  .callback_img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 620px) {
+  .callback_img {
+    display: none;
+  }
+
+  .callback-container {
+    max-width: 460px;
+  }
+
+  .callback_content {
+    width: 90%;
+    margin: auto;
+  }
+}

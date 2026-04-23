@@ -1,0 +1,140 @@
+{
+  "company": {
+    "name": "МЕГАБИТ",
+    "description": "Мы одно из ведущих предприятий г. Екатеринбурга в области строительства, проектирования, инженерных изысканий и обследования зданий и сооружений.",
+    "abbreviation": "МЕГАБИТ",
+    "adress": "с. Верхние Татышлы, ул. Комсомольская, 1, село Верхние Татышлы",
+    "phone": "+7(937)351-94-55",
+    "slogan": "Надёжные решения в геодезии, картографии и кадастре",
+    "year": 2003,
+    "idYandex": 118396837165,
+    "bg": "/uploads/heroBackground.jpg",
+    "arr": "ООО \"Мегабит\" 2026 © Все права защищены"
+  },
+  "social": [
+    { "name": "Телеграмм", "url": "https://t.me/gid_kadastr" },
+    {
+      "name": "Мах",
+      "url": "https://max.ru/join/8XYT9wGVaC0-RVMuH3ZLEj8l8Yq8_NgvV4MNLO9MA2Q"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/gid_kadastr?igsh=MTZqbGpiZzBkdzE2Nw=="
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "date": "16 апреля 2026",
+      "title": "Росреестр Башкортостана разъяснил 180 предпринимателям изменения земельного законодательства",
+      "img": "/uploads/news1.jpg"
+    },
+    {
+      "id": 2,
+      "date": "22 февраля",
+      "title": "Поздравляем с Днем защитника Отечества!",
+      "img": "/uploads/news2.jpg"
+    },
+    {
+      "id": 3,
+      "date": "22 февраля",
+      "title": "Поздравляем с Днем защитника Отечества!",
+      "img": "/uploads/news3.jpg"
+    }
+  ],
+  "projectHeader": {
+    "title": "Проекты",
+    "description": "Надёжные решения в строительстве, на примерах реальных проектов"
+  },
+  "project": [
+    {
+      "id": 1,
+      "img": "/uploads/projects1.jpg",
+      "company": "LOREM РАБОТЫ",
+      "object": "Lorem ipsum dolor sit amet consectetur adipisicing."
+    },
+    {
+      "id": 2,
+      "img": "/uploads/projects2.jpg",
+      "company": "LOREM РАБОТЫ",
+      "object": "Lorem ipsum dolor sit amet consectetur adipisicing."
+    },
+    {
+      "id": 3,
+      "img": "/uploads/projects3.jpg",
+      "company": "LOREM РАБОТЫ",
+      "object": "Lorem ipsum dolor sit amet consectetur adipisicing."
+    },
+    {
+      "id": 4,
+      "img": "/uploads/projects4.jpg",
+      "company": "LOREM РАБОТЫ",
+      "object": "Lorem ipsum dolor sit amet consectetur adipisicing."
+    }
+  ],
+  "servicesHeader": {
+    "title": "Услуги",
+    "description": "Надёжные решения в геодезии, картографии и кадастре"
+  },
+  "services": [
+    {
+      "id": 1,
+      "img": "/uploads/services1.jpg",
+      "title": "Кадастровые работы",
+      "description": "Комплекс инженерных мероприятий, направленных на сбор, анализ и документирование данных об объектах недвижимости для их государственного кадастрового учёта."
+    },
+    {
+      "id": 2,
+      "img": "/uploads/services2.jpg",
+      "title": "Картографические работы",
+      "description": "Комплекс мероприятий по сбору, обработке и представлению пространственных данных для создания картографической продукции: бумажных и электронных карт, планов, атласов и других материалов."
+    },
+    {
+      "id": 3,
+      "img": "/uploads/services3.jpg",
+      "title": "Геодезические работы",
+      "description": "Комплекс измерений, вычислений и построений для определения положения точек земной поверхности в заданной системе координат и высот."
+    },
+    {
+      "id": 4,
+      "img": "/uploads/services4.jpg",
+      "title": "Консультационные услуги",
+      "description": "Профессиональные разъяснения и рекомендации по вопросам кадастрового учёта, регистрации прав на недвижимость, межевания и другим аспектам."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Нижневаргская ГРЭС",
+      "img": "/uploads/reviews1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "АО МРСК Урала - Свердловэнерго",
+      "img": "/uploads/reviews2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Проектная компания \"Электрические Сети\"",
+      "img": "/uploads/reviews3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "АО \"Тюменэнерго\"",
+      "img": "/uploads/reviews4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "ООО \"Электро-Инжиниринг\"",
+      "img": "/uploads/reviews5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "ООО \"Электро-Инжиниринг\"",
+      "img": "/uploads/reviews6.jpg"
+    }
+  ],
+  "callback": {
+    "img": "/uploads/callback.jpg"
+  }
+}

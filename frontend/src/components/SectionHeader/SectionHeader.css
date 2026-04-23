@@ -1,0 +1,14 @@
+.section-header {
+  text-align: center;
+}
+
+.section-header_title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media (max-width: 620px) {
+  .section-header_description {
+    display: none;
+  }
+}
