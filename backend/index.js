@@ -29,7 +29,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.post("/upload", upload.single("image"), (req, res) => {
   res.json({
-    url: `http://localhost:3001/uploads/${req.file.filename}`,
+    url: `/uploads/${req.file.filename}`,
   });
 });
 
