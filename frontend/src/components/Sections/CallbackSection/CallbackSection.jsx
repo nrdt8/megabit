@@ -5,8 +5,6 @@ import { useState } from "react";
 import { useSite } from "../../../context/SiteContext";
 import emailjs from "emailjs-com";
 
-const API_IMG_URL = import.meta.env.VITE_IMG_API_URL;
-
 const CallbackSection = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -46,7 +44,7 @@ const CallbackSection = () => {
     <section className="callback section">
       <div className="callback-container">
         <div className="callback_img">
-          <img src={`${API_IMG_URL}${callback.img}`} alt="" />
+          <img src={callback.img} alt="" />
         </div>
         <div className="callback_content">
           <div className="callback_content-title">Обратный звонок</div>

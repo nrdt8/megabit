@@ -3,8 +3,6 @@ import "./ServicesSection.css";
 import SectionHeader from "../../SectionHeader/SectionHeader";
 import ServicesCard from "./ServicesCard/ServicesCard";
 
-const API_IMG_URL = import.meta.env.VITE_IMG_API_URL;
-
 const ServicesSection = ({ showButton }) => {
   const { servicesHeader, services } = useSite();
 
@@ -20,7 +18,7 @@ const ServicesSection = ({ showButton }) => {
         {services.map((elem) => (
           <ServicesCard
             key={elem.id}
-            img={`${API_IMG_URL}${elem.img}`}
+            img={elem.img}
             title={elem.title}
             description={elem.description}
             showButton={showButton}

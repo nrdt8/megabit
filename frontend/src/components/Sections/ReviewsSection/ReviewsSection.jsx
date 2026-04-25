@@ -1,6 +1,5 @@
 import { useSite } from "/src/context/SiteContext";
 import "./ReviewsSection.css";
-const API_IMG_URL = import.meta.env.VITE_IMG_API_URL;
 
 const ReviewsSection = () => {
   const { reviews } = useSite();
@@ -29,11 +28,7 @@ const ReviewsSection = () => {
           {reviews.map((elem, index) => {
             return (
               <div className="reviews__card" key={index}>
-                <img
-                  src={`${API_IMG_URL}${elem.img}`}
-                  alt="Документ"
-                  className="reviews__image"
-                />
+                <img src={elem.img} alt="Документ" className="reviews__image" />
               </div>
             );
           })}
